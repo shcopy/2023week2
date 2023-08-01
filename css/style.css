@@ -248,6 +248,10 @@ table {
 	justify-content: space-between;
 }
 
+.justify-center {
+	justify-content: center;
+}
+
 .items-center {
 	align-items: center;
 }
@@ -313,6 +317,18 @@ body {
 
 .banner-text {
 	width: 636px;
+}
+
+.contactme-button {
+	color: #000;
+	font-size: 16px;
+	text-decoration: none;
+	display: flex;
+	padding: 12px 24px;
+	align-items: flex-start;
+	gap: 4px;
+	border-radius: 32px;
+	background: #FFF;
 }
 
 .banner-text h1 {
@@ -392,12 +408,6 @@ body {
 
 .contact {
 	background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
-}
-
-.contact .container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .contact .image {
